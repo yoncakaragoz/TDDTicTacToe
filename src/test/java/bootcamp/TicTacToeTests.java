@@ -17,7 +17,37 @@ public class TicTacToeTests {
     @Test
     public void itShouldThrowInvalidGridSizeException_WhenGridSizeIsInvalid(){
 
+    }
 
+    @Test
+    public void itShouldThrowRunTimeException_WhenPlayer_X_OutsideBoard(){
 
     }
+
+    @Test
+    public void itShouldThrowRunTimeException_WhenPlayer_O_OutsideBoard(){
+
+    }
+
+    @Test
+    public void itShouldWin_WhenAllHorizontalLineIs_X(){
+
+    }
+
+    @Test
+    public void itShouldWin_WhenAllVerticalLineIs_O(){
+
+    }
+
+
+    @Test
+    public void itShouldWin_WhenDiagonalLineIs_X(){
+
+    }
+
+    @Test
+    public void itShouldWin_WhenDiagonalLineIs_O(){
+
+    }
+
 }
